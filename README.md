@@ -2,6 +2,8 @@
 
 Pick a folder, generate a table for every file inside it, then **paste into Word** or export a Word document.
 
+**Repo check:** If you see this line on GitHub, your latest push worked. *(Updated 2026-02-26.)*
+
 ## Columns generated
 
 - File name

@@ -4,6 +4,8 @@ from pathlib import Path
 
 from core import scan_folder, export_docx
 
+APP_VERSION = "1.0.1"  # bump when you want to verify GitHub shows a new commit
+
 
 def generate() -> None:
     folder = folder_var.get().strip()
@@ -37,7 +39,7 @@ def browse() -> None:
 
 
 root = tk.Tk()
-root.title("Folder → Word table (simple)")
+root.title(f"Folder → Word table (simple) v{APP_VERSION}")
 root.geometry("600x140")
 
 folder_var = tk.StringVar()
